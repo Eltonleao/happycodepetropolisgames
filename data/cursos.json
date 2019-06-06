@@ -2,25 +2,25 @@
     "curso": [
         {
             "title": "UpSchool!",
-            "body" : "Fernando e João",
+            "body" : "Fernando Filho e João Birnfeld",
             "bg": "img/screenshots/fernando-joao.png",
             "link": "games/intermediario/fernando-joao/index.html"
         },
         {
             "title": "Lucky e Leon",
-            "body" : "Sávio e Theo",
+            "body" : "Theo Lima e Sávio Oliveira",
             "bg": "img/screenshots/savio-theo.png",
             "link": "games/intermediario/savio-theo/index.html"
         },
         {
-            "title": "luan-joao",
-            "body" : "luan-joao",
+            "title": "Luan e João",
+            "body" : "Luan Santos e João Passos",
             "bg": "img/screenshots/luan-joao.png",
             "link": "games/intermediario/luan-joao/index.html"
         },
         {
-            "title": "Matheus",
-            "body" : "",
+            "title": "O Monstro da Preguiça",
+            "body" : "Matheus Lopes",
             "bg": "img/screenshots/matheus.png",
             "link": "games/intermediario/matheus/index.html"
         }
