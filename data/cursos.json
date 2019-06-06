@@ -3,25 +3,25 @@
         {
             "title": "UpSchool!",
             "body" : "Fernando e João",
-            "bg": "",
+            "bg": "img/screenshots/fernando-joao.png",
             "link": "games/intermediario/fernando-joao/index.html"
         },
         {
             "title": "Lucky e Leon",
             "body" : "Sávio e Theo",
-            "bg": "",
+            "bg": "img/screenshots/savio-theo.png",
             "link": "games/intermediario/savio-theo/index.html"
         },
         {
             "title": "luan-joao",
             "body" : "luan-joao",
-            "bg": "",
+            "bg": "img/screenshots/luan-joao.png",
             "link": "games/intermediario/luan-joao/index.html"
         },
         {
             "title": "Matheus",
             "body" : "",
-            "bg": "",
+            "bg": "img/screenshots/matheus.png",
             "link": "games/intermediario/matheus/index.html"
         }
         
