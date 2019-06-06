@@ -1,0 +1,34 @@
+{
+  "name": "happycode",
+  "version": "1.0.0",
+  "description": "host dos jogos dos alunos",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eltonleao/happycode.git"
+  },
+  "keywords": [
+    "happycodepetropolis"
+  ],
+  "author": "Elton Leão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eltonleao/happycode/issues"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "homepage": "https://github.com/Eltonleao/happycode#readme"
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" href="/img/favicon.png">
+    <title>HappyCodePetrópolis</title>
+</head>
+<body>
+    
+            <div class="card-panel z-depth-3  green lighten-1" id="header"><!--Header-->
+                
+                <img class="logo" src="/img/logo.png" alt="">
+
+                    <!--form id="search-container">
+                      <div class="input-field center">
+                          <input id="search" class="center validate" type="text" id="client" placeholder="Ir" autofocus autocomplete="off" style="width: 50%;">
+                      </div>
+                    </form -->
+
+                </div>
+
+            <div class="container row">
+                <% cursos.curso.forEach(function(item){ %>
+                    <div class="card col s12 m4 hoverable medium z-depth-2 center" style="background-image: url(<%=item.bg%>);background-position: center;">
+                        <div class="card-title green lighten-3 titulo">
+                            <h3 class="center"><%=item.title%></h3>
+                            <div class="card-content flow-text center-align"><%=item.body%></div>
+                        </div>
+                        
+                        
+                        <div class="card-action center">
+                            <a class="btn hoverable green" href="<%=item.link%>" target="__blank">Jogar!</a>
+                        </div>
+                        
+                    </div>
+                <% }) %>
+
+            </div><!--container------>
+
+
+    <script type="text/javascript" src="scripts/jquery-v3.3.1.js"></script>
+    <script src="/scripts/materialize.js" type="text/javascript"></script>
+    <script type="text/javascript" src="scripts/script.js" ></script>
+</body>
+</html>
